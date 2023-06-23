@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+}
+.divbig1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web{
+    font-size: 38px;
+    color: white;
+    margin-top: 60px;
+}
+.lorem{
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divbig2{
+    background-color: #212121;
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+}
+.UK{
+    background-color: #212121;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TR{
+    background-color: #212121;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FT{
+    background-color: #212121;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ET{
+    background-color: #212121;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    gap: 40px;
+}
+.about{
+    font-size: xx-large;
+    margin: 15px;
+    margin-left: 60px;
+}
+.lorem2{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.lorem3{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.block1{
+    border: 1px solid gray;
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.title{
+    font-size: x-large;
+    margin: 15px;
+    margin-top: 25px;
+}
+.block2{
+    border: 1px solid gray;
+    height: 200px;
+    width: 800px;
+    background-color: gray;
+    border-radius: 10px;
+}
