@@ -1,0 +1,554 @@
+header{
+    border: 1px solid white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.Mask{
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+    background-image: url(./img/Mask\ group.png);
+    background-size: contain;
+}
+.text-for-mask{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 55px;
+}
+.contact{
+    background-image: url(./img/Vector.1.png);
+    background-repeat: no-repeat;
+    margin-left: 950px;
+    margin-top: 40px;
+}
+.number{
+    margin-left: 25px;
+}
+main{
+    position: relative;
+}
+.main-text{
+    text-align: center;
+    color: #393939;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+span{
+    color: rgb(187, 70, 70);
+}
+.kebab1{
+    height: 198px;
+    width: 195px;
+    background-image: url(./img/Vector.png);
+    z-index: -1;
+    position: absolute;
+    right: 180px;
+    top: 80px;
+}
+.lule{
+    background-image: url(./img/azerbaijani-lyulya-kebab-with-potatoes-vegetables\ 1.png);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 650px;
+    margin: 100px auto;
+    padding-top: 300px;
+}
+.container-for-lule{
+    border: 1px solid white;
+    background-color: white;
+    width: 1000px;
+    height: 70px;
+    margin:auto;
+    border-radius: 40px;
+    display: flex;
+    gap: 30px;
+}
+.About , .Contact-Us , .Menu , .Delivery , .Beverages{
+    border: 1px solid white;
+    height: 60px;
+    width: 170px;
+    border-radius: 40px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+#special-id{
+    margin-left: 10px;
+    color: white;
+    background-color: #16A036;
+}
+.plule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.main-text2{
+    text-align: center;
+    color: #393939;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+hr{
+    height: 1px;
+    width: 600px;
+    margin: 50px auto;
+    color:#16A036;
+}
+.for-p{
+    width: 750px;
+    margin: auto;
+}
+.p-for-main1 , .p-for-main2 , .p-for-main3{
+    text-align: center;
+    color: gray;
+    letter-spacing: 2px;
+}
+.p-for-main2{
+    margin: 20px;
+}
+.hr1{
+    margin-bottom:200px ;
+}
+.kebab2{
+    width: 100px;
+    height:120px;
+    background-image: url(./img/Group2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1200px;
+    left: 140px;
+}
+.kebab3{
+    width: 100px;
+    height:120px;
+    background-image: url(./img/Frame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 920px;
+    left: 780px;
+    z-index: -1;
+}
+.kebab4{
+    width: 60px;
+    height: 80px;
+    background-image: url(./img/Group3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 900px;
+    left: 1000px;
+}
+.kebab5{
+    width: 100px;
+    height:120px;
+    background-image: url(./img/Vector33.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1420px;
+    left: 880px;
+    z-index: -1;
+}
+.kebab6{
+    width: 120px;
+    height:140px;
+    background-image: url(./img/Vector\ 11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+}
+.kebab7{
+    width: 120px;
+    height:140px;
+    background-image: url(./img/Vector\ 22.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    rotate: 90deg;
+    right: 50px;
+    bottom: 30px;
+}
+.back-for-second-page{
+    background-image: url(./img/Rectangle\ 11.png);
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+.meat{
+    background-image: url(./img/meat.png);
+    width: 150px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+}
+.le{
+    background-image: url(./img/l.png);
+    width: 150px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.bbq{
+    background-image: url(./img/Bee.png);
+    width: 150px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+    z-index: -1;
+}
+.for-containers{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 80px;
+    
+}
+.container1 , .container2 , .container3 , .container4 , .container5 , .container6{
+    box-shadow: 0.5px 0.5px 4px gray;
+}
+.container1{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    background-image: url(./img/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container2{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    background-image: url(./img/Rectangle\ 16.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container3{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    background-image: url(./img/Rectangle\ 17.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container4{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    background-image: url(./img/Rectangle\ 22.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container5{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    background-image: url(./img/Rectangle\ 24.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container6{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    background-image: url(./img/Rectangle\ 99.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.p-for-kabab3{
+    margin-top: 275px;
+    margin-left: 15px;
+}
+.p-for-kabab4{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-for-radius-div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.radius-div1{
+    border: 5px solid rgb(202, 201, 201);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 2150px;
+    left: 410px;
+}
+.radius-div2{
+    border: 5px solid rgb(202, 201, 201);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 2150px;
+    left: 790px;
+}
+.radius-div3{
+    border: 5px solid rgb(202, 201, 201);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 2150px;
+    left: 1170px;
+}
+.radius-div4{
+    border: 5px solid rgb(202, 201, 201);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 2680px;
+    left: 410px;
+}
+.radius-div5{
+    border: 5px solid rgb(202, 201, 201);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 2680px;
+    left: 790px;
+}
+.radius-div6{
+    border: 5px solid rgb(202, 201, 201);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 2680px;
+    left: 1170px;
+}
+.div-for-beverages{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(220, 218, 218);
+    margin-top: 800px;
+    padding-top: 60px;
+}
+.main-beverages{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.help1{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coca-cola-div{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cola1{
+    background-image: url(./img/3-coca-cola-can-png-image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+}
+.cola2{
+    background-image: url(./img/580b57fbd9996e24bc43c0e6\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+}
+.cola3{
+    background-image: url(./img/pngwing\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+}
+.cola4{
+    background-image: url(./img/image\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+}
+.cola5{
+    background-image: url(./img/image\ 16.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+}
+.cola6{
+    background-image: url(./img/NicePng_dr-pepper-logo-png_462216\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 130px;
+}
+.radius-div7{
+    border: 4px solid rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 3300px;
+    left: 330px;
+}
+.radius-div8{
+    border: 4px solid rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 3300px;
+    left: 480px;
+}
+.radius-div9{
+    border: 4px solid rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 3300px;
+    left: 630px;
+}
+.radius-div10{
+    border: 4px solid rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 3300px;
+    left: 780px;
+}
+.radius-div11{
+    border: 4px solid rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 3300px;
+    left: 930px;
+}
+.radius-div12{
+    border: 4px solid rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16A036;
+    position: absolute;
+    top: 3300px;
+    left: 1080px;
+}
+.help-delivery{
+    display: flex;
+    justify-content: center;
+}
+.for-delivery{
+    padding-top: 60px;
+    height: 400px;
+    width: 50%;
+}
+.delivery2{
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.help2{
+    color: grey;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+.uber{
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-image: url(./img/image\ 12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.uber2{
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-image: url(./img/image\ 13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.lorem1{
+    color: gray;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+.world , .world2{
+    width: 18%;
+}
+.help-contact{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.this-is-contact{
+    background-image: url(./img/map.png);
+    width: 1200px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
