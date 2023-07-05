@@ -12,10 +12,17 @@ header{
     background-image: url(./img/Mask\ group.png);
     background-size: contain;
 }
-.text-for-mask{
+.text-for-mask {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 55px;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: #212121;
 }
 .contact{
     background-image: url(./img/Vector.1.png);
@@ -78,16 +85,14 @@ span{
     align-items: center;
     margin-top: 5px;
 }
-#special-id{
-    margin-left: 10px;
-    color: white;
-    background-color: #16A036;
-}
 .plule{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
+#special-id{
+    margin-left: 10px;
 }
 .main-text2{
     text-align: center;
@@ -237,6 +242,8 @@ hr{
     background-image: url(./img/Rectangle\ 15.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    box-shadow: 3px 4px 6px rgb(116, 110, 110);
 }
 .container2{
     border: 1px solid white;
@@ -246,6 +253,8 @@ hr{
     background-image: url(./img/Rectangle\ 16.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    box-shadow: 3px 4px 6px rgb(116, 110, 110);
 }
 .container3{
     border: 1px solid white;
@@ -255,6 +264,8 @@ hr{
     background-image: url(./img/Rectangle\ 17.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    box-shadow: 3px 4px 6px rgb(116, 110, 110);
 }
 .container4{
     border: 1px solid white;
@@ -264,6 +275,8 @@ hr{
     background-image: url(./img/Rectangle\ 22.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    box-shadow: 3px 4px 6px rgb(116, 110, 110);
 }
 .container5{
     border: 1px solid white;
@@ -273,6 +286,8 @@ hr{
     background-image: url(./img/Rectangle\ 24.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    box-shadow: 3px 4px 6px rgb(116, 110, 110);
 }
 .container6{
     border: 1px solid white;
@@ -282,6 +297,8 @@ hr{
     background-image: url(./img/Rectangle\ 99.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    box-shadow: 3px 4px 6px rgb(116, 110, 110);
 }
 .p-for-kabab3{
     margin-top: 275px;
@@ -309,8 +326,8 @@ hr{
     border-radius: 50%;
     background-color: #16A036;
     position: absolute;
-    top: 2150px;
-    left: 410px;
+    top: 220px;
+    left: 210px;
 }
 .radius-div2{
     border: 5px solid rgb(202, 201, 201);
@@ -319,8 +336,8 @@ hr{
     border-radius: 50%;
     background-color: #16A036;
     position: absolute;
-    top: 2150px;
-    left: 790px;
+    top: 220px;
+    left: 210px;
 }
 .radius-div3{
     border: 5px solid rgb(202, 201, 201);
@@ -329,8 +346,8 @@ hr{
     border-radius: 50%;
     background-color: #16A036;
     position: absolute;
-    top: 2150px;
-    left: 1170px;
+    top: 220px;
+    left: 210px;
 }
 .radius-div4{
     border: 5px solid rgb(202, 201, 201);
@@ -339,8 +356,8 @@ hr{
     border-radius: 50%;
     background-color: #16A036;
     position: absolute;
-    top: 2680px;
-    left: 410px;
+    top: 220px;
+    left: 210px;
 }
 .radius-div5{
     border: 5px solid rgb(202, 201, 201);
@@ -349,8 +366,8 @@ hr{
     border-radius: 50%;
     background-color: #16A036;
     position: absolute;
-    top: 2680px;
-    left: 790px;
+    top: 220px;
+    left: 210px;
 }
 .radius-div6{
     border: 5px solid rgb(202, 201, 201);
@@ -359,8 +376,8 @@ hr{
     border-radius: 50%;
     background-color: #16A036;
     position: absolute;
-    top: 2680px;
-    left: 1170px;
+    top: 220px;
+    left: 210px;
 }
 .div-for-beverages{
     width: 100%;
@@ -551,4 +568,123 @@ hr{
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+.cola1:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.2;
+    cursor: pointer;
+}
+.cola2:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.2;
+    cursor: pointer;
+}
+.cola3:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.2;
+    cursor: pointer;
+}
+.cola4:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.2;
+    cursor: pointer;
+}
+.cola5:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.2;
+    cursor: pointer;
+}
+.cola6:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.2;
+    cursor: pointer;
+}
+.uber:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.uber2:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.lorem1:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+.About:hover{
+    color: white;
+    background-color: #16A036;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.About:hover{
+    color: white;
+    background-color: #16A036;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.Delivery:hover{
+    color: white;
+    background-color: #16A036;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.Beverages:hover{
+    color: white;
+    background-color: #16A036;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.Contact-Us:hover{
+    color: white;
+    background-color: #16A036;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.Menu:hover{
+    color: white;
+    background-color: #16A036;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.number:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.container1:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    cursor: pointer;
+}
+.container2:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    cursor: pointer;
+}
+.container3:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    cursor: pointer;
+}
+.container4:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    cursor: pointer;
+}
+.container5:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    cursor: pointer;
+}
+.container6:hover{
+    transition: all 0.1s ease-out;
+    scale: 1.1;
+    cursor: pointer;
 }
