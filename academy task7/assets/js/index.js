@@ -1,19 +1,70 @@
-//First task
-//let num1 = prompt("Ededi daxil edin")
-//let num2 = prompt("Kvadrati daxil edin")
-//let num3 = parseInt(num1)**parseInt(num2)
-//alert(num3)
-//Second task
-//let forSelsi = prompt("Selsi deyerini daxil edin")
-//let faranhayt = +forSelsi * 1.8 + 32
-//alert("Cavab faranheytle " + faranhayt)
-//Third task
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+//task 2.1
+//
+// function sayHello(first) {
+//     alert (`${first} is active now`)
+//     return
+// }
+// sayHello('Arthur');
+// sayHello('Mike');
+// sayHello('Seymur');
 
-let number = prompt("Pls enter yout number")
-if (isNaN(number)) {
-    number = prompt("Pls enter true number")
-} else {
-    alert("it is ok")
-}
+
+//task 2.2
+//
+// function maxNum(num1 , num2 , num3) {
+//     console.log(Math.max(num1 , num2 , num3))
+//     return
+// }
+// maxNum(22 , 10 , 50)
+
+
+//task 2.3
+//
+// function maxNum(num1 , num2 , num3) {
+//     console.log(Math.min(num1 , num2 , num3))
+//     return
+// }
+// maxNum(22 , 10 , 50)
+
+
+//task 2.4
+//?????????????????
+
+//task 2.5
+//?????????????????
+
+
+//task 2.6
+//
+// function isEven(a) {
+//     if (a % 2 == 0) {
+//         return 'Eded cutdur'
+//     } else {
+//         return 'Eded tekdir'
+//     }
+// }
+// console.log(isEven(5));
+
+
+//task 2.7
+//
+// function isValidNumber(a) {
+//     if (a.lenght = 11) {
+//         return 'true'
+//     } else {
+//         return 'false'
+//     }
+// }
+// console.log(isValidNumber(11111111111));
+
+
+//task 2.8
+//
+// function numCounter(text) {
+//     return text.length
+// }
+// console.log(numCounter("Hello pupsik"));
